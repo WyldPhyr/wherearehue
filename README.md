@@ -21,4 +21,4 @@ Now feel free to bind the script to any hotkey of your laptop and toggle the lig
 ## Important
 - Detecting the room takes some time, don't think it's not working just because it takes a couple of seconds.
 - The room detection is based on [whereami](https://github.com/kootenpv/whereami), check back there for issues with the precision of the detection
-- The name of the trained rooms <u>*has to match the room of the lights*</u> (A config file will be added later)
+- The name of the trained rooms *has to match the room of the lights* (A config file will be added later)
