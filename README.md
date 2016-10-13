@@ -10,9 +10,9 @@ Using [Phue](https://github.com/studioimaginaire/phue) and [whereami](https://gi
 Exmaple output:
 ```
 Detected room workroom.
-Turn on ['workroom drawing', 'workroom spot', 'workroom main'] ? (Y/n)
+Turn on ['workroom drawing', 'workroom spot', 'workroom main'] ? (Y/N)
 Turning lights on
-Turn off all other lights ? (Y/n)
+Turn off all other lights ? (Y/N)
 Turning lights off
 ```
 
