@@ -14,12 +14,12 @@ for l in lights: logging.info("\t{}".format(l))
 room = run("whereami predict", shell=True, stdout=PIPE)
 room = room.stdout.decode('UTF-8').strip().split('\n')[-1]
 room_lights = [l for l in lights if norm("NFKD",room.casefold()) in norm("NFKD",l.casefold())]
-print("Detected room {}.\nTurn on {} ? (Y/n)".format(room, room_lights))
+print("Detected room {}.\nTurn on {} ? (Y/N)".format(room, room_lights))
 if not input().lower() == 'n':
     print("Turning lights on")
     for l in room_lights:
         lights[l].on = True
-print("Turn off all other lights ? (Y/n)")
+print("Turn off all other lights ? (Y/N)")
 if not input().lower() == 'n':
     print("Turning lights off")
     for n, l in lights.items():
